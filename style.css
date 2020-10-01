@@ -1,0 +1,81 @@
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.keyboard {
+    border: 1px solid #969696;
+    padding: 3px 2px;
+    margin: 10px auto;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.btn {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 2px 2px;
+}
+
+.line-1 {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.line-2 {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr) 110px;
+    height: 60px;
+}
+
+.line-3 {
+    display: grid;
+    grid-template-columns: 100px repeat(13, 1fr);
+    height: 60px;
+}
+
+.line-4 {
+    display: grid;
+    grid-template-columns: 120px repeat(11, 1fr) 140px;
+    height: 60px;
+}
+
+.line-5 {
+    display: grid;
+    grid-template-columns: 130px repeat(12, 1fr);
+    height: 60px;
+}
+
+.line-6 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 33.33% repeat(5, 1fr);
+    height: 60px;
+}
+
+.press {
+    background: #cdcdcd;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 10px;
+}
