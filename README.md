@@ -1,2 +1,2 @@
 # keyboardProject
-* For desktop only! *
+* For desktop only!
